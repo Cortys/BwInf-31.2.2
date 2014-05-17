@@ -26,4 +26,4 @@ That should explain everything you may or may not want to know about my solution
 
 ## Why is it German? ##
 
-![http://cdn.rsvlts.com/wp-content/uploads/2013/11/deal-with-it.jpg]
+!(http://cdn.rsvlts.com/wp-content/uploads/2013/11/deal-with-it.jpg)
