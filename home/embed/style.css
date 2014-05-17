@@ -1,0 +1,31 @@
+.menuPoint {
+	position: relative;
+	width: 900px;
+	height: 242px;
+	background: url(../../img/area.png) no-repeat 0 0;
+	margin: 0 0 0 30px;
+	cursor: pointer;
+}
+.menuPoint:hover {
+	background-position: -900px 0;
+}
+.menuPoint img {
+	position: absolute;
+	top: 0px;
+	left: 0;
+}
+.menuPoint .title {
+	position: absolute;
+	width: 300px;
+	height: 242px;
+	left: 300px;
+	top: 0px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 242px;
+	font-weight: bold;
+	font-size: 26px;
+}
+.menuPoint:hover .title {
+	font-size: 28px;
+}

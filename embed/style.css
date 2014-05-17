@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../img/bg.jpg) repeat fixed;
+	color: #444444;
+	cursor: default;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.34);
+	font: 14px/140% Georgia, "Times New Roman", Times, serif;
+	overflow: hidden;
+}
+
+::-moz-selection, ::selection {
+	background-color: rgba(213, 136, 1, 0.8);
+	color: #ffffff;
+}
+
+#wrap {
+	position: absolute;
+	width: 1000px;
+	height: 600px;
+	border: 1px solid #9d7b06;
+	top: 50%;
+	left: 50%;
+	margin-top: -300px;
+	margin-left: -500px;
+	background-color: #ffffff;
+	-moz-box-shadow: 0 7px 10px rgba(0, 0, 0, 0.26);
+	-webkit-box-shadow: 0 7px 10px rgba(0, 0, 0, 0.26);
+	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.26);
+	overflow: hidden;
+}
+
+#scrollable {
+	position: absolute;
+	width: 1000px;
+	height: 525px;
+	top: 75px;
+	left: 0;
+	overflow: auto;
+}
+
+#content {
+	margin: 20px;
+}
+
+#head {
+	position: absolute;
+	width: 1000px;
+	height: 75px;
+	text-shadow: 0 2px 6px black;
+	text-align: center;
+	color: #fef0d6;
+	top: 0;
+	left: 0;
+	-moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+	z-index: 1;
+	background: -moz-linear-gradient(90deg, rgba(157, 81, 16, 0.63) 0%, rgba(255, 255, 255, 0) 76.8%) #9d7b06;
+	background: -webkit-gradient(linear, left bottom, left top, from(rgba(157, 81, 16, 0.63)), color-stop(0.768, rgba(255, 255, 255, 0))) #9d7b06;
+	background: -o-linear-gradient(90deg, rgba(157, 81, 16, 0.63) 0%, rgba(255, 255, 255, 0) 76.8%) #9d7b06;
+	font: lighter 20px/30px Helvetica, Arial, Geneva, sans-serif;
+}
+
+#home {
+	position: absolute;
+	left: 20px;
+	top: 12px;
+	cursor: pointer;
+}
+
+#head span {
+	line-height: 40px;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#load {
+	position: absolute;
+	text-align: center;
+	top: 300px;
+	width: 1000px;
+	color: #c28400;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #ffffff;
+	display: none;
+	border: 1px none #444;
+	border-top: 1px solid #444444;
+	border-bottom: 1px solid #444444;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	-moz-box-shadow: 0 1px 10px black;
+	-webkit-box-shadow: 0 1px 10px black;
+	box-shadow: 0 1px 10px black;
+}
+
+.metaBox {
+	-moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.67);
+	-webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.67);
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.67);
+	background-image: url(../img/bg.jpg);
+}
+
+table {
+	width: 100%;
+}
+table, table tr td {
+	border-spacing: 0;
+}
+.tableTop td {
+	background-color: #444444;
+	color: #ffffff;
+	border-right: 1px solid #ffffff;
+	text-align: center;
+	font-weight: bold;
+	height: 25px;
+}
+.tableTop td:last-child {
+	border: none;
+}
+input, select {
+	background-color: #FAFAF4;
+	border: 1px solid #DFD8C3;
+	color: #444444;
+	outline-color: #d58902;
+}
+input[type=checkbox] {
+	background-color: #d58902;
+}
+input[type=button] {
+	font-weight: bold;
+	cursor: pointer;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.34);
+	border-radius: 5px;
+}
+input[type=button]:hover {
+	background-color: #d58902;
+	border: 1px solid #b95f01;
+	color: #ffffff;
+}
+input[type=button]:active {
+	background-color: #b95f01;
+	border: 1px solid #5c3104;
+	color: #ffffff;
+}
+input[type=button]:disabled {
+	background-color: #FAFAF4;
+	border: 1px solid #DFD8C3;
+	color: #cfc5a6;
+}
